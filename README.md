@@ -11,6 +11,7 @@
 >   private Singleton(){ }
 >   public static Singleton getInstance(){ return instance; }
 >}
+>```
 >
 >
 >       ### 饿汉式——静态代码块<br>
@@ -24,7 +25,7 @@
 >   }
 >   public static Singleton getInstance(){ return instance; }
 >}
->
+>```
 >
 >       ### 懒汉式——线程不安全<br>
 >           特点：调用 getInstance() 方法时才创建实例
@@ -39,6 +40,7 @@
 >   return instance;
 >   }
 >}
+>```
 
 >* 抽象工厂
 >* 原型模式
